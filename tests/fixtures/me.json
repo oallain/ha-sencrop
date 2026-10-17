@@ -1,0 +1,30 @@
+{
+  "item": 12345,
+  "users": {
+    "12345": {
+      "id": 12345,
+      "locale": "fr-FR",
+      "timeZone": "Europe/Paris",
+      "organisationsIds": [
+        900001
+      ],
+      "roles": [
+        "ROLE_USER"
+      ],
+      "signupType": "unknown",
+      "emailVerified": true,
+      "hubSpotContactId": "900002",
+      "contents": {
+        "firstname": "Jane",
+        "lastname": "Doe",
+        "email": "user@example.com",
+        "phone": "+33600000000",
+        "crops": [],
+        "locale": "fr-FR",
+        "timeZone": "Europe/Paris"
+      },
+      "creationDate": "2022-12-11T11:57:14.000Z",
+      "lastModificationDate": "2026-04-27T22:13:54.000Z"
+    }
+  }
+}

@@ -1,0 +1,442 @@
+[
+  {
+    "date": "2026-10-17T22:59:59.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:54:59.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 78.967,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:54:59.000Z",
+    "type": "TEMPERATURE",
+    "value": 10.733,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:54:59.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 8.91,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:45:00.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:40:00.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 78.4,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:40:00.000Z",
+    "type": "TEMPERATURE",
+    "value": 10.833,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:40:00.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 8.96,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:29:59.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:24:59.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 78.667,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:24:59.000Z",
+    "type": "TEMPERATURE",
+    "value": 10.9,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:24:59.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 9.04,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:14:59.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:09:59.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 78.933,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:09:59.000Z",
+    "type": "TEMPERATURE",
+    "value": 10.967,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:09:59.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 9.13,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:00:00.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:55:00.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 78.8,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:55:00.000Z",
+    "type": "TEMPERATURE",
+    "value": 11.1,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:55:00.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 9.24,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:45:00.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:40:00.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 78.467,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:40:00.000Z",
+    "type": "TEMPERATURE",
+    "value": 11.2,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:40:00.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 9.3,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:29:59.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:24:59.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 77.933,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:24:59.000Z",
+    "type": "TEMPERATURE",
+    "value": 11.367,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:24:59.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 9.41,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:14:59.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:09:59.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 77.4,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:09:59.000Z",
+    "type": "TEMPERATURE",
+    "value": 11.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:09:59.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 9.49,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T20:59:59.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T20:54:59.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 77.7,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T20:54:59.000Z",
+    "type": "TEMPERATURE",
+    "value": 11.467,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T20:54:59.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 9.49,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T20:45:00.000Z",
+    "type": "RAIN_FALL",
+    "value": 0,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T20:40:00.000Z",
+    "type": "RELATIVE_HUMIDITY",
+    "value": 78.033,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T20:40:00.000Z",
+    "type": "TEMPERATURE",
+    "value": 11.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T20:40:00.000Z",
+    "type": "WET_TEMPERATURE",
+    "value": 9.55,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  }
+]

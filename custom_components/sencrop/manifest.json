@@ -1,0 +1,14 @@
+{
+  "domain": "sencrop",
+  "name": "Sencrop",
+  "codeowners": [
+    "@oallain"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/oallain/ha-sencrop",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/oallain/ha-sencrop/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

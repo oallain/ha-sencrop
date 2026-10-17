@@ -1,0 +1,879 @@
+{
+  "item": 1012,
+  "models": {
+    "900005": {
+      "id": 900005,
+      "contents": {
+        "name": "Raincrop",
+        "externalDiameter": 0.206,
+        "conception": "France - Lille",
+        "manufacturing": "Europe-France",
+        "calibration": "Ok",
+        "weight": 3.5
+      }
+    }
+  },
+  "devices": {
+    "1012": {
+      "id": 1012,
+      "creationDate": "2022-09-22T06:54:16.000Z",
+      "lastModificationDate": "2026-06-21T15:38:05.000Z",
+      "hasBeenReplaced": false,
+      "previousDevicesIds": [],
+      "settings": {
+        "patchSmallRainFall": true
+      },
+      "accessPeriods": [
+        {
+          "id": 900041,
+          "bucketId": 900042,
+          "authorId": 900010,
+          "granteeId": 900001,
+          "userId": 900010,
+          "delegatorId": 900010,
+          "organisationId": 900001,
+          "name": "Raincrop jardin",
+          "parameters": {},
+          "type": "owner",
+          "startDate": "2022-12-18T09:45:08.000Z",
+          "endDate": "2026-06-15T09:03:58.000Z",
+          "deletionDate": "2026-06-15T09:03:58.000Z"
+        },
+        {
+          "id": 900043,
+          "bucketId": 900042,
+          "authorId": 900027,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900028,
+          "userId": 900010,
+          "delegatorId": 900027,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2022-12-18T09:45:08.000Z"
+        }
+      ],
+      "modelId": 900005,
+      "identification": "SERIAL-21",
+      "serial": "SERIAL-22",
+      "calibrations": {},
+      "contents": {
+        "name": "Raincrop jardin"
+      },
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 1,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.60",
+        "signal": 0,
+        "lqi": "Good",
+        "battery": 3552,
+        "lastLocationDate": "2026-10-02T09:51:02.000Z",
+        "lastMoveDate": "2026-10-02T06:57:39.000Z",
+        "lastStatusUpdateDate": "2026-10-17T22:58:11.000Z",
+        "lastRebootDate": "2026-06-21T15:37:40.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      }
+    }
+  },
+  "measures": {
+    "interval": "1h",
+    "data": [
+      {
+        "key": 1792108800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 95.241
+        },
+        "TEMPERATURE": {
+          "value": 12.757
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.326
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792112400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 95.626
+        },
+        "TEMPERATURE": {
+          "value": 12.857
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.457
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792116000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 96.355
+        },
+        "TEMPERATURE": {
+          "value": 14.078
+        },
+        "WET_TEMPERATURE": {
+          "value": 13.733
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792119600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 96.248
+        },
+        "TEMPERATURE": {
+          "value": 14.95
+        },
+        "WET_TEMPERATURE": {
+          "value": 14.585
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792123200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 96.474
+        },
+        "TEMPERATURE": {
+          "value": 15.445
+        },
+        "WET_TEMPERATURE": {
+          "value": 15.1
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792126800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 96.6
+        },
+        "TEMPERATURE": {
+          "value": 15.774
+        },
+        "WET_TEMPERATURE": {
+          "value": 15.444
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792130400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 96.674
+        },
+        "TEMPERATURE": {
+          "value": 15.898
+        },
+        "WET_TEMPERATURE": {
+          "value": 15.568
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792134000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 96.75
+        },
+        "TEMPERATURE": {
+          "value": 16.198
+        },
+        "WET_TEMPERATURE": {
+          "value": 15.878
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792137600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 96.702
+        },
+        "TEMPERATURE": {
+          "value": 16.771
+        },
+        "WET_TEMPERATURE": {
+          "value": 16.437
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792141200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 96.529
+        },
+        "TEMPERATURE": {
+          "value": 17.097
+        },
+        "WET_TEMPERATURE": {
+          "value": 16.743
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792144800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 95.981
+        },
+        "TEMPERATURE": {
+          "value": 17.671
+        },
+        "WET_TEMPERATURE": {
+          "value": 17.257
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792148400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 93.363
+        },
+        "TEMPERATURE": {
+          "value": 18.49
+        },
+        "WET_TEMPERATURE": {
+          "value": 17.779
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792152000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 84.328
+        },
+        "TEMPERATURE": {
+          "value": 20.145
+        },
+        "WET_TEMPERATURE": {
+          "value": 18.358
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792155600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 82.31
+        },
+        "TEMPERATURE": {
+          "value": 20.455
+        },
+        "WET_TEMPERATURE": {
+          "value": 18.418
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792159200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 86.3
+        },
+        "TEMPERATURE": {
+          "value": 19.155
+        },
+        "WET_TEMPERATURE": {
+          "value": 17.642
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792162800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 90.269
+        },
+        "TEMPERATURE": {
+          "value": 18.276
+        },
+        "WET_TEMPERATURE": {
+          "value": 17.236
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792166400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 88.248
+        },
+        "TEMPERATURE": {
+          "value": 18.498
+        },
+        "WET_TEMPERATURE": {
+          "value": 17.228
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792170000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 91.226
+        },
+        "TEMPERATURE": {
+          "value": 18.25
+        },
+        "WET_TEMPERATURE": {
+          "value": 17.315
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792173600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 92.817
+        },
+        "TEMPERATURE": {
+          "value": 17.702
+        },
+        "WET_TEMPERATURE": {
+          "value": 16.951
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792177200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 93.774
+        },
+        "TEMPERATURE": {
+          "value": 17.426
+        },
+        "WET_TEMPERATURE": {
+          "value": 16.781
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792180800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 93.828
+        },
+        "TEMPERATURE": {
+          "value": 17.398
+        },
+        "WET_TEMPERATURE": {
+          "value": 16.758
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792184400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 93.019
+        },
+        "TEMPERATURE": {
+          "value": 17.579
+        },
+        "WET_TEMPERATURE": {
+          "value": 16.85
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792188000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 91.819
+        },
+        "TEMPERATURE": {
+          "value": 17.302
+        },
+        "WET_TEMPERATURE": {
+          "value": 16.457
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792191600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 88.536
+        },
+        "TEMPERATURE": {
+          "value": 17.107
+        },
+        "WET_TEMPERATURE": {
+          "value": 15.915
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792195200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 91.127
+        },
+        "TEMPERATURE": {
+          "value": 15.159
+        },
+        "WET_TEMPERATURE": {
+          "value": 14.289
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792198800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 94.486
+        },
+        "TEMPERATURE": {
+          "value": 14.136
+        },
+        "WET_TEMPERATURE": {
+          "value": 13.619
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792202400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 95.024
+        },
+        "TEMPERATURE": {
+          "value": 14.821
+        },
+        "WET_TEMPERATURE": {
+          "value": 14.341
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792206000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 94.636
+        },
+        "TEMPERATURE": {
+          "value": 15.498
+        },
+        "WET_TEMPERATURE": {
+          "value": 14.974
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792209600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 92.75
+        },
+        "TEMPERATURE": {
+          "value": 14.681
+        },
+        "WET_TEMPERATURE": {
+          "value": 13.986
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792213200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 91.81
+        },
+        "TEMPERATURE": {
+          "value": 13.929
+        },
+        "WET_TEMPERATURE": {
+          "value": 13.16
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792216800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 90.498
+        },
+        "TEMPERATURE": {
+          "value": 13.45
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.567
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792220400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 88.888
+        },
+        "TEMPERATURE": {
+          "value": 13.126
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.102
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792224000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 87.525
+        },
+        "TEMPERATURE": {
+          "value": 13.008
+        },
+        "WET_TEMPERATURE": {
+          "value": 11.858
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792227600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 87.584
+        },
+        "TEMPERATURE": {
+          "value": 13.021
+        },
+        "WET_TEMPERATURE": {
+          "value": 11.882
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792231200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 89.492
+        },
+        "TEMPERATURE": {
+          "value": 13.088
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.122
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792234800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 78.761
+        },
+        "TEMPERATURE": {
+          "value": 14.592
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.504
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792238400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 73.472
+        },
+        "TEMPERATURE": {
+          "value": 15.724
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.996
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792242000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 71.586
+        },
+        "TEMPERATURE": {
+          "value": 15.874
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.93
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792245600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 71.238
+        },
+        "TEMPERATURE": {
+          "value": 15.807
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.833
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792249200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 68.503
+        },
+        "TEMPERATURE": {
+          "value": 15.65
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.393
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792252800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 64.288
+        },
+        "TEMPERATURE": {
+          "value": 15.403
+        },
+        "WET_TEMPERATURE": {
+          "value": 11.707
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792256400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 63.588
+        },
+        "TEMPERATURE": {
+          "value": 14.46
+        },
+        "WET_TEMPERATURE": {
+          "value": 10.797
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792260000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 64.045
+        },
+        "TEMPERATURE": {
+          "value": 13.65
+        },
+        "WET_TEMPERATURE": {
+          "value": 10.129
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792263600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 63.989
+        },
+        "TEMPERATURE": {
+          "value": 13.721
+        },
+        "WET_TEMPERATURE": {
+          "value": 10.188
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792267200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 65.675
+        },
+        "TEMPERATURE": {
+          "value": 12.905
+        },
+        "WET_TEMPERATURE": {
+          "value": 9.642
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792270800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 68.468
+        },
+        "TEMPERATURE": {
+          "value": 12.181
+        },
+        "WET_TEMPERATURE": {
+          "value": 9.267
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792274400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 70.371
+        },
+        "TEMPERATURE": {
+          "value": 11.676
+        },
+        "WET_TEMPERATURE": {
+          "value": 8.996
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792278000000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 72.55
+        },
+        "TEMPERATURE": {
+          "value": 11.15
+        },
+        "WET_TEMPERATURE": {
+          "value": 8.72
+        },
+        "docCount": 4
+      },
+      {
+        "key": 1792281600000,
+        "RAIN_FALL": {},
+        "RELATIVE_HUMIDITY": {},
+        "TEMPERATURE": {},
+        "WET_TEMPERATURE": {},
+        "docCount": 0
+      }
+    ]
+  }
+}

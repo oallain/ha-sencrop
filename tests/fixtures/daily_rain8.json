@@ -1,0 +1,279 @@
+{
+  "item": 1012,
+  "models": {
+    "900005": {
+      "id": 900005,
+      "contents": {
+        "name": "Raincrop",
+        "externalDiameter": 0.206,
+        "conception": "France - Lille",
+        "manufacturing": "Europe-France",
+        "calibration": "Ok",
+        "weight": 3.5
+      }
+    }
+  },
+  "devices": {
+    "1012": {
+      "id": 1012,
+      "creationDate": "2022-09-22T06:54:16.000Z",
+      "lastModificationDate": "2026-06-21T15:38:05.000Z",
+      "hasBeenReplaced": false,
+      "previousDevicesIds": [],
+      "settings": {
+        "patchSmallRainFall": true
+      },
+      "accessPeriods": [
+        {
+          "id": 900041,
+          "bucketId": 900042,
+          "authorId": 900010,
+          "granteeId": 900001,
+          "userId": 900010,
+          "delegatorId": 900010,
+          "organisationId": 900001,
+          "name": "Raincrop jardin",
+          "parameters": {},
+          "type": "owner",
+          "startDate": "2022-12-18T09:45:08.000Z",
+          "endDate": "2026-06-15T09:03:58.000Z",
+          "deletionDate": "2026-06-15T09:03:58.000Z"
+        },
+        {
+          "id": 900043,
+          "bucketId": 900042,
+          "authorId": 900027,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900028,
+          "userId": 900010,
+          "delegatorId": 900027,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2022-12-18T09:45:08.000Z"
+        }
+      ],
+      "modelId": 900005,
+      "identification": "SERIAL-21",
+      "serial": "SERIAL-22",
+      "calibrations": {},
+      "contents": {
+        "name": "Raincrop jardin"
+      },
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 1,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.60",
+        "signal": 0,
+        "lqi": "Good",
+        "battery": 3552,
+        "lastLocationDate": "2026-10-02T09:51:02.000Z",
+        "lastMoveDate": "2026-10-02T06:57:39.000Z",
+        "lastStatusUpdateDate": "2026-10-17T22:58:11.000Z",
+        "lastRebootDate": "2026-06-21T15:37:40.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      }
+    }
+  },
+  "measures": {
+    "interval": "1d",
+    "data": [
+      {
+        "key": 1791676800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 83.609
+        },
+        "TEMPERATURE": {
+          "value": 11.796
+        },
+        "WET_TEMPERATURE": {
+          "value": 10.129
+        },
+        "TEMPERATURE_MIN": {
+          "value": 5.65
+        },
+        "TEMPERATURE_MAX": {
+          "value": 19.1
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1791763200000,
+        "RAIN_FALL": {
+          "value": 2.54
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 85.888
+        },
+        "TEMPERATURE": {
+          "value": 16.968
+        },
+        "WET_TEMPERATURE": {
+          "value": 15.449
+        },
+        "TEMPERATURE_MIN": {
+          "value": 13.6
+        },
+        "TEMPERATURE_MAX": {
+          "value": 22.1
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1791849600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 86.783
+        },
+        "TEMPERATURE": {
+          "value": 19.095
+        },
+        "WET_TEMPERATURE": {
+          "value": 17.527
+        },
+        "TEMPERATURE_MIN": {
+          "value": 15.1
+        },
+        "TEMPERATURE_MAX": {
+          "value": 24.8
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1791936000000,
+        "RAIN_FALL": {
+          "value": 0.508
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 87.952
+        },
+        "TEMPERATURE": {
+          "value": 18.689
+        },
+        "WET_TEMPERATURE": {
+          "value": 17.261
+        },
+        "TEMPERATURE_MIN": {
+          "value": 14.108
+        },
+        "TEMPERATURE_MAX": {
+          "value": 25.05
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1792022400000,
+        "RAIN_FALL": {
+          "value": 0.508
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 83.964
+        },
+        "TEMPERATURE": {
+          "value": 18.28
+        },
+        "WET_TEMPERATURE": {
+          "value": 16.204
+        },
+        "TEMPERATURE_MIN": {
+          "value": 12.8
+        },
+        "TEMPERATURE_MAX": {
+          "value": 27.75
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1792108800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 93.137
+        },
+        "TEMPERATURE": {
+          "value": 16.821
+        },
+        "WET_TEMPERATURE": {
+          "value": 16.098
+        },
+        "TEMPERATURE_MIN": {
+          "value": 12.55
+        },
+        "TEMPERATURE_MAX": {
+          "value": 20.55
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1792195200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 79.847
+        },
+        "TEMPERATURE": {
+          "value": 14.278
+        },
+        "WET_TEMPERATURE": {
+          "value": 12.3
+        },
+        "TEMPERATURE_MIN": {
+          "value": 11.676
+        },
+        "TEMPERATURE_MAX": {
+          "value": 17.302
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1792281600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 72.55
+        },
+        "TEMPERATURE": {
+          "value": 11.15
+        },
+        "WET_TEMPERATURE": {
+          "value": 8.72
+        },
+        "TEMPERATURE_MIN": {
+          "value": 11.15
+        },
+        "TEMPERATURE_MAX": {
+          "value": 11.676
+        },
+        "docCount": 96
+      }
+    ]
+  }
+}

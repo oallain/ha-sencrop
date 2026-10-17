@@ -1,0 +1,133 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sencrop account",
+        "description": "Sign in with the email and password you use in the Sencrop app.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        },
+        "data_description": {
+          "email": "Email of your Sencrop app account.",
+          "password": "Password of your Sencrop app account."
+        }
+      },
+      "devices": {
+        "title": "Sencrop devices",
+        "description": "Select the stations to add. Your account may also see neighbouring stations shared through the Sencrop network.",
+        "data": {
+          "devices": "Devices"
+        },
+        "data_description": {
+          "devices": "Each selected station becomes a device in Home Assistant."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Sign in to Sencrop again",
+        "description": "Sencrop rejected the stored credentials. Enter the current password of {email}.",
+        "data": {
+          "password": "Password"
+        },
+        "data_description": {
+          "password": "Password of your Sencrop app account."
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Unable to reach Sencrop. Try again later.",
+      "unknown": "Unexpected error, see the logs.",
+      "no_devices": "Select at least one device."
+    },
+    "abort": {
+      "already_configured": "This Sencrop account is already configured.",
+      "reauth_successful": "Re-authentication was successful.",
+      "wrong_account": "These credentials belong to another Sencrop account."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Sencrop options",
+        "data": {
+          "devices": "Devices",
+          "scan_interval": "Update interval"
+        },
+        "data_description": {
+          "devices": "Stations exposed in Home Assistant.",
+          "scan_interval": "How often Sencrop is polled (5 to 60 minutes). Stations report every 10 to 15 minutes."
+        }
+      }
+    },
+    "error": {
+      "no_devices": "Select at least one device."
+    },
+    "abort": {
+      "cannot_connect": "Unable to reach Sencrop. Try again later.",
+      "invalid_auth": "Sencrop rejected the stored credentials. Reconfigure the integration."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": {
+        "name": "Temperature"
+      },
+      "humidity": {
+        "name": "Humidity"
+      },
+      "wet_temperature": {
+        "name": "Wet-bulb temperature"
+      },
+      "wind_speed": {
+        "name": "Wind speed"
+      },
+      "wind_gust": {
+        "name": "Wind gust"
+      },
+      "wind_direction": {
+        "name": "Wind direction"
+      },
+      "rain": {
+        "name": "Rain"
+      },
+      "rain_today": {
+        "name": "Rain today"
+      },
+      "rain_24h": {
+        "name": "Rain last 24 hours"
+      },
+      "rain_7d": {
+        "name": "Rain last 7 days"
+      },
+      "temperature_min_today": {
+        "name": "Minimum temperature today"
+      },
+      "temperature_max_today": {
+        "name": "Maximum temperature today"
+      },
+      "dew_point": {
+        "name": "Dew point"
+      },
+      "battery_voltage": {
+        "name": "Battery voltage"
+      },
+      "link_quality": {
+        "name": "Link quality",
+        "state": {
+          "excellent": "Excellent",
+          "good": "Good",
+          "average": "Average",
+          "limit": "Limit",
+          "unknown": "Unknown"
+        }
+      },
+      "firmware": {
+        "name": "Firmware"
+      },
+      "last_measurement": {
+        "name": "Last measurement"
+      }
+    }
+  }
+}

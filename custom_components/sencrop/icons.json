@@ -1,0 +1,45 @@
+{
+  "entity": {
+    "sensor": {
+      "rain": {
+        "default": "mdi:weather-rainy"
+      },
+      "rain_today": {
+        "default": "mdi:weather-rainy"
+      },
+      "rain_24h": {
+        "default": "mdi:weather-rainy"
+      },
+      "rain_7d": {
+        "default": "mdi:weather-rainy"
+      },
+      "wind_speed": {
+        "default": "mdi:weather-windy"
+      },
+      "wind_gust": {
+        "default": "mdi:weather-windy"
+      },
+      "wind_direction": {
+        "default": "mdi:compass-outline"
+      },
+      "dew_point": {
+        "default": "mdi:thermometer-water"
+      },
+      "wet_temperature": {
+        "default": "mdi:thermometer-water"
+      },
+      "link_quality": {
+        "default": "mdi:signal"
+      },
+      "firmware": {
+        "default": "mdi:chip"
+      },
+      "temperature_min_today": {
+        "default": "mdi:thermometer-chevron-down"
+      },
+      "temperature_max_today": {
+        "default": "mdi:thermometer-chevron-up"
+      }
+    }
+  }
+}

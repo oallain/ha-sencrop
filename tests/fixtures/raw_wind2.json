@@ -1,0 +1,332 @@
+[
+  {
+    "date": "2026-10-17T22:58:48.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 292,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:58:48.000Z",
+    "type": "WIND_GUST",
+    "value": 12,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:58:48.000Z",
+    "type": "WIND_SPEED",
+    "value": 5.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:48:48.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 299,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:48:48.000Z",
+    "type": "WIND_GUST",
+    "value": 15.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:48:48.000Z",
+    "type": "WIND_SPEED",
+    "value": 6.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:38:48.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 297,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:38:48.000Z",
+    "type": "WIND_GUST",
+    "value": 14.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:38:48.000Z",
+    "type": "WIND_SPEED",
+    "value": 7,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:28:48.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 290,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:28:48.000Z",
+    "type": "WIND_GUST",
+    "value": 13.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:28:48.000Z",
+    "type": "WIND_SPEED",
+    "value": 6.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:18:48.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 294,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:18:48.000Z",
+    "type": "WIND_GUST",
+    "value": 15.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:18:48.000Z",
+    "type": "WIND_SPEED",
+    "value": 7,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:08:48.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 300,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:08:48.000Z",
+    "type": "WIND_GUST",
+    "value": 11,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T22:08:48.000Z",
+    "type": "WIND_SPEED",
+    "value": 6,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:58:48.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 298,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:58:48.000Z",
+    "type": "WIND_GUST",
+    "value": 12,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:58:48.000Z",
+    "type": "WIND_SPEED",
+    "value": 6.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:48:48.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 284,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:48:48.000Z",
+    "type": "WIND_GUST",
+    "value": 15.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:48:48.000Z",
+    "type": "WIND_SPEED",
+    "value": 6.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:38:47.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 297,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:38:47.000Z",
+    "type": "WIND_GUST",
+    "value": 19.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:38:47.000Z",
+    "type": "WIND_SPEED",
+    "value": 8,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:28:47.000Z",
+    "type": "WIND_DIRECTION",
+    "value": 290,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:28:47.000Z",
+    "type": "WIND_GUST",
+    "value": 19.5,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  },
+  {
+    "date": "2026-10-17T21:28:47.000Z",
+    "type": "WIND_SPEED",
+    "value": 8,
+    "calibration": [
+      1
+    ],
+    "discarded": false,
+    "fiability": 99,
+    "source": "device"
+  }
+]

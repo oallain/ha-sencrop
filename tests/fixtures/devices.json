@@ -1,0 +1,841 @@
+{
+  "items": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012
+  ],
+  "total": 12,
+  "models": {
+    "900005": {
+      "id": 900005,
+      "contents": {
+        "name": "Raincrop",
+        "externalDiameter": 0.206,
+        "conception": "France - Lille",
+        "manufacturing": "Europe-France",
+        "calibration": "Ok",
+        "weight": 3.5
+      }
+    },
+    "900006": {
+      "id": 900006,
+      "contents": {
+        "name": "Windcrop",
+        "conception": "France - Lille",
+        "manufacturing": "Europe-France",
+        "calibration": "Ok",
+        "weight": 3.1
+      }
+    }
+  },
+  "devices": {
+    "1008": {
+      "id": 1008,
+      "modelId": 900005,
+      "accessPeriods": [
+        {
+          "id": 900007,
+          "bucketId": 900008,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2022-04-06T05:02:17.000Z"
+        }
+      ],
+      "identification": "SERIAL-1",
+      "serial": "SERIAL-2",
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 1,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.51",
+        "signal": 0,
+        "lqi": "Excellent",
+        "battery": 3440,
+        "lastLocationDate": "2026-05-05T13:05:02.000Z",
+        "lastMoveDate": "2025-03-05T15:30:42.000Z",
+        "lastStatusUpdateDate": "2026-10-17T23:09:14.000Z",
+        "lastRebootDate": "2026-05-05T13:04:15.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      },
+      "contents": {
+        "name": ""
+      }
+    },
+    "1002": {
+      "id": 1002,
+      "modelId": 900005,
+      "accessPeriods": [
+        {
+          "id": 900011,
+          "bucketId": 900012,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2021-03-07T07:19:34.000Z",
+          "endDate": "2022-04-13T05:01:45.000Z",
+          "deletionDate": "2022-04-13T05:01:45.000Z"
+        },
+        {
+          "id": 900013,
+          "bucketId": 900012,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2021-02-23T08:23:14.000Z",
+          "endDate": "2021-03-02T08:29:07.000Z",
+          "deletionDate": "2021-03-02T08:29:07.000Z"
+        }
+      ],
+      "identification": "SERIAL-3",
+      "serial": "SERIAL-4",
+      "status": {
+        "firmware": "0.2.51",
+        "signal": 0,
+        "lqi": "Average",
+        "battery": 3744,
+        "lastLocationDate": "2024-08-01T05:16:58.000Z",
+        "lastMoveDate": "2023-12-02T12:19:44.000Z",
+        "lastStatusUpdateDate": "2024-08-01T05:17:15.000Z",
+        "lastRebootDate": "2020-12-26T14:23:06.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      },
+      "contents": {
+        "name": ""
+      }
+    },
+    "1003": {
+      "id": 1003,
+      "modelId": 900006,
+      "accessPeriods": [
+        {
+          "id": 900014,
+          "bucketId": 900015,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2021-03-07T07:19:15.000Z",
+          "endDate": "2022-04-13T05:01:40.000Z",
+          "deletionDate": "2022-04-13T05:01:40.000Z"
+        },
+        {
+          "id": 900016,
+          "bucketId": 900015,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2021-02-23T08:23:14.000Z",
+          "endDate": "2021-03-02T08:29:04.000Z",
+          "deletionDate": "2021-03-02T08:29:04.000Z"
+        }
+      ],
+      "identification": "SERIAL-5",
+      "serial": "SERIAL-6",
+      "status": {
+        "firmware": "1.1.42",
+        "signal": 0,
+        "lqi": "Average",
+        "battery": 2560,
+        "lastLocationDate": "2020-12-26T14:26:02.000Z",
+        "lastLocationFailureDate": "2026-01-09T06:45:16.000Z",
+        "lastStatusUpdateDate": "2026-01-17T00:41:04.000Z",
+        "lastRebootDate": "2020-12-26T14:25:20.000Z"
+      },
+      "measures": {
+        "default": "WIND_SPEED",
+        "list": [
+          "WIND_SPEED",
+          "WIND_GUST",
+          "WIND_DIRECTION"
+        ]
+      },
+      "contents": {
+        "name": ""
+      }
+    },
+    "1001": {
+      "id": 1001,
+      "modelId": 900005,
+      "accessPeriods": [
+        {
+          "id": 900017,
+          "bucketId": 900018,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2024-01-01T00:00:00.000Z"
+        }
+      ],
+      "identification": "SERIAL-7",
+      "serial": "SERIAL-8",
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 1,
+        "satellites": 5,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.51",
+        "signal": 0,
+        "lqi": "Excellent",
+        "battery": 1888,
+        "lastLocationDate": "2026-03-21T08:53:01.000Z",
+        "lastLocationFailureDate": "2026-03-22T13:31:42.000Z",
+        "lastMoveDate": "2026-01-30T14:05:56.000Z",
+        "lastStatusUpdateDate": "2026-03-22T13:32:00.000Z",
+        "lastRebootDate": "2026-03-22T13:20:10.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      },
+      "contents": {
+        "name": ""
+      }
+    },
+    "1007": {
+      "id": 1007,
+      "modelId": 900006,
+      "accessPeriods": [
+        {
+          "id": 900019,
+          "bucketId": 900020,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2022-04-06T05:02:01.000Z"
+        }
+      ],
+      "identification": "SERIAL-9",
+      "serial": "SERIAL-10",
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 1,
+        "satellites": 6,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "1.1.42",
+        "signal": 0,
+        "lqi": "Excellent",
+        "battery": 3168,
+        "lastLocationDate": "2025-07-03T09:33:55.000Z",
+        "lastStatusUpdateDate": "2026-10-17T22:55:03.000Z",
+        "lastRebootDate": "2025-07-03T09:33:05.000Z"
+      },
+      "measures": {
+        "default": "WIND_SPEED",
+        "list": [
+          "WIND_SPEED",
+          "WIND_GUST",
+          "WIND_DIRECTION"
+        ]
+      },
+      "contents": {
+        "name": ""
+      }
+    },
+    "1005": {
+      "id": 1005,
+      "creationDate": "2020-02-05T15:08:50.000Z",
+      "lastModificationDate": "2025-12-14T19:44:52.000Z",
+      "hasBeenReplaced": false,
+      "previousDevicesIds": [],
+      "settings": {
+        "patchSmallRainFall": true
+      },
+      "accessPeriods": [
+        {
+          "id": 900021,
+          "bucketId": 900022,
+          "authorId": 900010,
+          "granteeId": 900023,
+          "sharingOrganisationId": 900001,
+          "userId": 900024,
+          "delegatorId": 900010,
+          "organisationId": 900023,
+          "name": "Pluviometre verger",
+          "moduleId": 900025,
+          "parameters": {},
+          "type": "partner",
+          "startDate": "2021-03-02T07:31:58.000Z",
+          "endDate": "2026-06-15T09:03:43.000Z",
+          "deletionDate": "2026-06-15T09:03:43.000Z"
+        },
+        {
+          "id": 900026,
+          "bucketId": 900022,
+          "authorId": 900027,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900028,
+          "userId": 900010,
+          "delegatorId": 900027,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2021-03-02T07:31:58.000Z"
+        },
+        {
+          "id": 900029,
+          "bucketId": 900022,
+          "authorId": 900010,
+          "granteeId": 900001,
+          "userId": 900010,
+          "delegatorId": 900010,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "owner",
+          "startDate": "2021-03-02T07:31:58.000Z",
+          "endDate": "2026-06-15T09:03:43.000Z",
+          "deletionDate": "2026-06-15T09:03:43.000Z"
+        }
+      ],
+      "modelId": 900005,
+      "identification": "SERIAL-11",
+      "serial": "SERIAL-12",
+      "calibrations": {},
+      "contents": {
+        "name": "Pluviometre verger"
+      },
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 0,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.51",
+        "signal": 0,
+        "lqi": "Excellent",
+        "battery": 3472,
+        "lastLocationDate": "2025-07-28T15:28:05.000Z",
+        "lastMoveDate": "2024-07-05T11:56:06.000Z",
+        "lastStatusUpdateDate": "2026-10-17T23:00:17.000Z",
+        "lastRebootDate": "2025-07-28T15:27:17.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      }
+    },
+    "1006": {
+      "id": 1006,
+      "modelId": 900005,
+      "accessPeriods": [
+        {
+          "id": 900030,
+          "bucketId": 900031,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2021-04-27T05:17:09.000Z",
+          "endDate": "2021-05-14T12:45:09.000Z"
+        },
+        {
+          "id": 900032,
+          "bucketId": 900033,
+          "authorId": 900027,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900028,
+          "userId": 900010,
+          "delegatorId": 900027,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2021-05-14T12:45:44.000Z"
+        }
+      ],
+      "identification": "SERIAL-13",
+      "serial": "SERIAL-14",
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 0,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.51",
+        "signal": 0,
+        "lqi": "Good",
+        "battery": 3472,
+        "lastLocationDate": "2026-04-27T08:43:57.000Z",
+        "lastMoveDate": "2026-04-27T08:09:57.000Z",
+        "lastStatusUpdateDate": "2026-10-17T23:02:31.000Z",
+        "lastRebootDate": "2026-04-27T08:43:04.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      },
+      "contents": {
+        "name": ""
+      }
+    },
+    "1004": {
+      "id": 1004,
+      "creationDate": "2020-06-05T09:17:11.000Z",
+      "lastModificationDate": "2024-02-19T08:05:17.000Z",
+      "hasBeenReplaced": false,
+      "previousDevicesIds": [],
+      "settings": {
+        "patchSmallRainFall": true
+      },
+      "accessPeriods": [
+        {
+          "id": 900034,
+          "bucketId": 900035,
+          "authorId": 900010,
+          "granteeId": 900001,
+          "userId": 900010,
+          "delegatorId": 900010,
+          "organisationId": 900001,
+          "name": "Anemometre verger",
+          "parameters": {},
+          "type": "owner",
+          "startDate": "2021-03-02T07:31:16.000Z",
+          "endDate": "2026-06-15T09:03:43.000Z",
+          "deletionDate": "2026-06-15T09:03:43.000Z"
+        },
+        {
+          "id": 900036,
+          "bucketId": 900035,
+          "authorId": 900027,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900028,
+          "userId": 900010,
+          "delegatorId": 900027,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2021-03-02T07:31:16.000Z"
+        }
+      ],
+      "modelId": 900006,
+      "identification": "SERIAL-15",
+      "serial": "SERIAL-16",
+      "calibrations": {},
+      "contents": {
+        "name": "Anemometre verger"
+      },
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 1,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "1.1.42",
+        "signal": 0,
+        "lqi": "Good",
+        "battery": 3216,
+        "lastLocationDate": "2024-05-20T23:21:33.000Z",
+        "lastMoveDate": "2024-02-21T17:25:06.000Z",
+        "lastStatusUpdateDate": "2026-10-17T22:59:08.000Z",
+        "lastRebootDate": "2021-03-02T08:36:34.000Z"
+      },
+      "measures": {
+        "default": "WIND_SPEED",
+        "list": [
+          "WIND_SPEED",
+          "WIND_GUST",
+          "WIND_DIRECTION"
+        ]
+      }
+    },
+    "1009": {
+      "id": 1009,
+      "modelId": 900005,
+      "accessPeriods": [
+        {
+          "id": 900037,
+          "bucketId": 900038,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2023-01-01T00:00:00.000Z"
+        }
+      ],
+      "identification": "SERIAL-17",
+      "serial": "SERIAL-18",
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 0,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.60",
+        "signal": 0,
+        "lqi": "Good",
+        "battery": 3456,
+        "lastLocationDate": "2026-08-24T16:33:02.000Z",
+        "lastLocationFailureDate": "2026-05-22T22:17:25.000Z",
+        "lastMoveDate": "2026-08-24T13:33:53.000Z",
+        "lastStatusUpdateDate": "2026-10-17T23:05:56.000Z",
+        "lastRebootDate": "2026-08-21T06:03:30.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      },
+      "contents": {
+        "name": ""
+      }
+    },
+    "1010": {
+      "id": 1010,
+      "modelId": 900005,
+      "accessPeriods": [
+        {
+          "id": 900039,
+          "bucketId": 900040,
+          "authorId": 900004,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900009,
+          "userId": 900010,
+          "delegatorId": 900004,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2022-10-13T12:17:13.000Z"
+        }
+      ],
+      "identification": "SERIAL-19",
+      "serial": "SERIAL-20",
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 0,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.60",
+        "signal": 0,
+        "lqi": "Limit",
+        "battery": 3568,
+        "lastLocationDate": "2026-09-18T23:09:38.000Z",
+        "lastMoveDate": "2026-09-18T17:17:33.000Z",
+        "lastStatusUpdateDate": "2026-10-17T23:03:37.000Z",
+        "lastRebootDate": "2026-05-05T06:28:55.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      },
+      "contents": {
+        "name": ""
+      }
+    },
+    "1012": {
+      "id": 1012,
+      "creationDate": "2022-09-22T06:54:16.000Z",
+      "lastModificationDate": "2026-06-21T15:38:05.000Z",
+      "hasBeenReplaced": false,
+      "previousDevicesIds": [],
+      "settings": {
+        "patchSmallRainFall": true
+      },
+      "accessPeriods": [
+        {
+          "id": 900041,
+          "bucketId": 900042,
+          "authorId": 900010,
+          "granteeId": 900001,
+          "userId": 900010,
+          "delegatorId": 900010,
+          "organisationId": 900001,
+          "name": "Raincrop jardin",
+          "parameters": {},
+          "type": "owner",
+          "startDate": "2022-12-18T09:45:08.000Z",
+          "endDate": "2026-06-15T09:03:58.000Z",
+          "deletionDate": "2026-06-15T09:03:58.000Z"
+        },
+        {
+          "id": 900043,
+          "bucketId": 900042,
+          "authorId": 900027,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900028,
+          "userId": 900010,
+          "delegatorId": 900027,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2022-12-18T09:45:08.000Z"
+        }
+      ],
+      "modelId": 900005,
+      "identification": "SERIAL-21",
+      "serial": "SERIAL-22",
+      "calibrations": {},
+      "contents": {
+        "name": "Raincrop jardin"
+      },
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 1,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.60",
+        "signal": 0,
+        "lqi": "Good",
+        "battery": 3552,
+        "lastLocationDate": "2026-10-02T09:51:02.000Z",
+        "lastMoveDate": "2026-10-02T06:57:39.000Z",
+        "lastStatusUpdateDate": "2026-10-17T22:58:11.000Z",
+        "lastRebootDate": "2026-06-21T15:37:40.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      }
+    },
+    "1011": {
+      "id": 1011,
+      "creationDate": "2022-11-15T06:07:42.000Z",
+      "lastModificationDate": "2026-08-16T07:16:00.000Z",
+      "hasBeenReplaced": false,
+      "previousDevicesIds": [],
+      "settings": {
+        "patchSmallRainFall": true
+      },
+      "accessPeriods": [
+        {
+          "id": 900044,
+          "bucketId": 900045,
+          "authorId": 900010,
+          "granteeId": 900001,
+          "userId": 900010,
+          "delegatorId": 900010,
+          "organisationId": 900001,
+          "name": "Anemometre jardin",
+          "parameters": {},
+          "type": "owner",
+          "startDate": "2022-12-18T09:19:40.000Z",
+          "endDate": "2026-06-15T09:03:58.000Z",
+          "deletionDate": "2026-06-15T09:03:58.000Z"
+        },
+        {
+          "id": 900046,
+          "bucketId": 900045,
+          "authorId": 900027,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900028,
+          "userId": 900010,
+          "delegatorId": 900027,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2022-12-18T09:19:40.000Z"
+        }
+      ],
+      "modelId": 900006,
+      "identification": "SERIAL-23",
+      "serial": "SERIAL-24",
+      "calibrations": {},
+      "contents": {
+        "name": "Anemometre jardin"
+      },
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 1,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "1.1.60",
+        "signal": 0,
+        "lqi": "Good",
+        "battery": 3312,
+        "lastLocationDate": "2026-09-29T09:10:56.000Z",
+        "lastMoveDate": "2026-09-29T06:17:54.000Z",
+        "lastStatusUpdateDate": "2026-10-17T22:58:57.000Z",
+        "lastRebootDate": "2026-08-16T07:15:40.000Z"
+      },
+      "measures": {
+        "default": "WIND_SPEED",
+        "list": [
+          "WIND_SPEED",
+          "WIND_GUST",
+          "WIND_DIRECTION"
+        ]
+      }
+    }
+  }
+}

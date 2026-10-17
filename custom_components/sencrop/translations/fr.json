@@ -1,0 +1,133 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Compte Sencrop",
+        "description": "Connectez-vous avec l'email et le mot de passe de l'application Sencrop.",
+        "data": {
+          "email": "Email",
+          "password": "Mot de passe"
+        },
+        "data_description": {
+          "email": "Email de votre compte de l'application Sencrop.",
+          "password": "Mot de passe de votre compte de l'application Sencrop."
+        }
+      },
+      "devices": {
+        "title": "Capteurs Sencrop",
+        "description": "Choisissez les stations à ajouter. Votre compte peut aussi voir des stations voisines partagées par le réseau Sencrop.",
+        "data": {
+          "devices": "Capteurs"
+        },
+        "data_description": {
+          "devices": "Chaque station choisie devient un appareil dans Home Assistant."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Se reconnecter à Sencrop",
+        "description": "Sencrop a refusé les identifiants enregistrés. Saisissez le mot de passe actuel de {email}.",
+        "data": {
+          "password": "Mot de passe"
+        },
+        "data_description": {
+          "password": "Mot de passe de votre compte de l'application Sencrop."
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Email ou mot de passe incorrect.",
+      "cannot_connect": "Impossible de joindre Sencrop. Réessayez plus tard.",
+      "unknown": "Erreur inattendue, consultez les journaux.",
+      "no_devices": "Choisissez au moins un capteur."
+    },
+    "abort": {
+      "already_configured": "Ce compte Sencrop est déjà configuré.",
+      "reauth_successful": "Reconnexion réussie.",
+      "wrong_account": "Ces identifiants correspondent à un autre compte Sencrop."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options Sencrop",
+        "data": {
+          "devices": "Capteurs",
+          "scan_interval": "Intervalle de mise à jour"
+        },
+        "data_description": {
+          "devices": "Stations exposées dans Home Assistant.",
+          "scan_interval": "Fréquence d'interrogation de Sencrop (5 à 60 minutes). Les stations émettent toutes les 10 à 15 minutes."
+        }
+      }
+    },
+    "error": {
+      "no_devices": "Choisissez au moins un capteur."
+    },
+    "abort": {
+      "cannot_connect": "Impossible de joindre Sencrop. Réessayez plus tard.",
+      "invalid_auth": "Sencrop a refusé les identifiants enregistrés. Reconfigurez l'intégration."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": {
+        "name": "Température"
+      },
+      "humidity": {
+        "name": "Humidité"
+      },
+      "wet_temperature": {
+        "name": "Température humide"
+      },
+      "wind_speed": {
+        "name": "Vitesse du vent"
+      },
+      "wind_gust": {
+        "name": "Rafales"
+      },
+      "wind_direction": {
+        "name": "Direction du vent"
+      },
+      "rain": {
+        "name": "Pluie"
+      },
+      "rain_today": {
+        "name": "Pluie aujourd'hui"
+      },
+      "rain_24h": {
+        "name": "Pluie sur 24 heures"
+      },
+      "rain_7d": {
+        "name": "Pluie sur 7 jours"
+      },
+      "temperature_min_today": {
+        "name": "Température minimale du jour"
+      },
+      "temperature_max_today": {
+        "name": "Température maximale du jour"
+      },
+      "dew_point": {
+        "name": "Point de rosée"
+      },
+      "battery_voltage": {
+        "name": "Tension de la batterie"
+      },
+      "link_quality": {
+        "name": "Qualité de liaison",
+        "state": {
+          "excellent": "Excellente",
+          "good": "Bonne",
+          "average": "Moyenne",
+          "limit": "Limite",
+          "unknown": "Inconnue"
+        }
+      },
+      "firmware": {
+        "name": "Firmware"
+      },
+      "last_measurement": {
+        "name": "Dernière mesure"
+      }
+    }
+  }
+}

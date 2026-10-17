@@ -1,0 +1,295 @@
+{
+  "item": 1005,
+  "models": {
+    "900005": {
+      "id": 900005,
+      "contents": {
+        "name": "Raincrop",
+        "externalDiameter": 0.206,
+        "conception": "France - Lille",
+        "manufacturing": "Europe-France",
+        "calibration": "Ok",
+        "weight": 3.5
+      }
+    }
+  },
+  "devices": {
+    "1005": {
+      "id": 1005,
+      "creationDate": "2020-02-05T15:08:50.000Z",
+      "lastModificationDate": "2025-12-14T19:44:52.000Z",
+      "hasBeenReplaced": false,
+      "previousDevicesIds": [],
+      "settings": {
+        "patchSmallRainFall": true
+      },
+      "accessPeriods": [
+        {
+          "id": 900029,
+          "bucketId": 900022,
+          "authorId": 900010,
+          "granteeId": 900001,
+          "userId": 900010,
+          "delegatorId": 900010,
+          "organisationId": 900001,
+          "name": "Pluviometre verger",
+          "parameters": {},
+          "type": "owner",
+          "startDate": "2021-03-02T07:31:58.000Z",
+          "endDate": "2026-06-15T09:03:43.000Z",
+          "deletionDate": "2026-06-15T09:03:43.000Z"
+        },
+        {
+          "id": 900021,
+          "bucketId": 900022,
+          "authorId": 900010,
+          "granteeId": 900023,
+          "sharingOrganisationId": 900001,
+          "userId": 900024,
+          "delegatorId": 900010,
+          "organisationId": 900023,
+          "moduleId": 900025,
+          "parameters": {},
+          "type": "partner",
+          "startDate": "2021-03-02T07:31:58.000Z",
+          "endDate": "2026-06-15T09:03:43.000Z",
+          "deletionDate": "2026-06-15T09:03:43.000Z"
+        },
+        {
+          "id": 900026,
+          "bucketId": 900022,
+          "authorId": 900027,
+          "granteeId": 900001,
+          "sharingOrganisationId": 900028,
+          "userId": 900010,
+          "delegatorId": 900027,
+          "organisationId": 900001,
+          "parameters": {},
+          "type": "guest",
+          "startDate": "2021-03-02T07:31:58.000Z"
+        }
+      ],
+      "modelId": 900005,
+      "identification": "SERIAL-11",
+      "serial": "SERIAL-12",
+      "calibrations": {},
+      "contents": {
+        "name": "Pluviometre verger"
+      },
+      "location": {
+        "latitude": 45.0,
+        "longitude": 5.0,
+        "altitude": 100.0,
+        "timeZone": "Europe/Paris",
+        "precision": 0,
+        "satellites": 7,
+        "source": "gps"
+      },
+      "status": {
+        "firmware": "0.2.51",
+        "signal": 0,
+        "lqi": "Excellent",
+        "battery": 3472,
+        "lastLocationDate": "2025-07-28T15:28:05.000Z",
+        "lastMoveDate": "2024-07-05T11:56:06.000Z",
+        "lastStatusUpdateDate": "2026-10-17T23:00:17.000Z",
+        "lastRebootDate": "2025-07-28T15:27:17.000Z"
+      },
+      "measures": {
+        "default": "RAIN_FALL",
+        "list": [
+          "RAIN_FALL",
+          "TEMPERATURE",
+          "RELATIVE_HUMIDITY",
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ],
+        "optional": [
+          "WET_TEMPERATURE",
+          "DEW_POINT"
+        ]
+      }
+    }
+  },
+  "measures": {
+    "interval": "1d",
+    "data": [
+      {
+        "key": 1791676800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 76.225
+        },
+        "TEMPERATURE": {
+          "value": 12.185
+        },
+        "WET_TEMPERATURE": {
+          "value": 9.907
+        },
+        "TEMPERATURE_MIN": {
+          "value": 8.87
+        },
+        "TEMPERATURE_MAX": {
+          "value": 15.9
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1791763200000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 78.396
+        },
+        "TEMPERATURE": {
+          "value": 11.058
+        },
+        "WET_TEMPERATURE": {
+          "value": 8.801
+        },
+        "TEMPERATURE_MIN": {
+          "value": 4.7
+        },
+        "TEMPERATURE_MAX": {
+          "value": 19.567
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1791849600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 83.484
+        },
+        "TEMPERATURE": {
+          "value": 10.923
+        },
+        "WET_TEMPERATURE": {
+          "value": 9.289
+        },
+        "TEMPERATURE_MIN": {
+          "value": 2.233
+        },
+        "TEMPERATURE_MAX": {
+          "value": 18.767
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1791936000000,
+        "RAIN_FALL": {
+          "value": 0.762
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 84.921
+        },
+        "TEMPERATURE": {
+          "value": 15.181
+        },
+        "WET_TEMPERATURE": {
+          "value": 13.543
+        },
+        "TEMPERATURE_MIN": {
+          "value": 8.464
+        },
+        "TEMPERATURE_MAX": {
+          "value": 22.6
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1792022400000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 88.675
+        },
+        "TEMPERATURE": {
+          "value": 11.518
+        },
+        "WET_TEMPERATURE": {
+          "value": 10.33
+        },
+        "TEMPERATURE_MIN": {
+          "value": 5.1
+        },
+        "TEMPERATURE_MAX": {
+          "value": 22.1
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1792108800000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 89.695
+        },
+        "TEMPERATURE": {
+          "value": 12.423
+        },
+        "WET_TEMPERATURE": {
+          "value": 11.35
+        },
+        "TEMPERATURE_MIN": {
+          "value": 6.233
+        },
+        "TEMPERATURE_MAX": {
+          "value": 21.767
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1792195200000,
+        "RAIN_FALL": {
+          "value": 2.794
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 86.179
+        },
+        "TEMPERATURE": {
+          "value": 13.025
+        },
+        "WET_TEMPERATURE": {
+          "value": 11.752
+        },
+        "TEMPERATURE_MIN": {
+          "value": 11.056
+        },
+        "TEMPERATURE_MAX": {
+          "value": 18
+        },
+        "docCount": 96
+      },
+      {
+        "key": 1792281600000,
+        "RAIN_FALL": {
+          "value": 0
+        },
+        "RELATIVE_HUMIDITY": {
+          "value": 78.967
+        },
+        "TEMPERATURE": {
+          "value": 10.733
+        },
+        "WET_TEMPERATURE": {
+          "value": 8.91
+        },
+        "TEMPERATURE_MIN": {
+          "value": 10.733
+        },
+        "TEMPERATURE_MAX": {
+          "value": 11.056
+        },
+        "docCount": 96
+      }
+    ]
+  }
+}
