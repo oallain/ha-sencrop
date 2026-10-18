@@ -16,3 +16,13 @@ def test_manifest_is_valid() -> None:
     assert manifest["version"] == "0.1.0"
     assert manifest["codeowners"] == ["@oallain"]
     assert manifest["requirements"] == []
+
+
+def test_brand_icons() -> None:
+    from PIL import Image
+
+    brand = ROOT / "custom_components/sencrop/brand"
+    for name, size in (("icon.png", 256), ("icon@2x.png", 512)):
+        with Image.open(brand / name) as image:
+            assert image.format == "PNG"
+            assert image.size == (size, size)
