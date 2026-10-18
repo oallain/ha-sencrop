@@ -11,6 +11,7 @@ from custom_components.sencrop.derived import (
     last_measurement_date,
     sum_days,
     sum_since,
+    today_extreme,
 )
 
 from .common import load_fixture
@@ -98,3 +99,56 @@ def test_is_stale() -> None:
     assert is_stale(_measure(timedelta(hours=1, minutes=59)), NOW, max_age) is False
     assert is_stale(_measure(timedelta(hours=2, minutes=1)), NOW, max_age) is True
     assert is_stale({}, NOW, max_age) is True
+
+
+PARIS = ZoneInfo("Europe/Paris")
+# 14:00 in Paris on the 18th; daily keys are local dates at 00:00 UTC.
+LOCAL_NOW = datetime(2026, 10, 18, 14, 0, tzinfo=PARIS)
+TODAY_BUCKET = AggregateBucket(
+    start=datetime(2026, 10, 18, tzinfo=UTC),
+    values={"TEMPERATURE_MIN": 6.1, "TEMPERATURE_MAX": 13.9},
+    count=40,
+)
+
+
+def _temperature(value: float, when: datetime) -> Measurement:
+    return Measurement("TEMPERATURE", value, when.astimezone(UTC))
+
+
+def test_today_extreme_includes_current_measure() -> None:
+    current = _temperature(14.75, LOCAL_NOW - timedelta(minutes=5))
+
+    assert (
+        today_extreme([TODAY_BUCKET], "TEMPERATURE_MAX", current, LOCAL_NOW, max)
+        == 14.75
+    )
+    assert (
+        today_extreme([TODAY_BUCKET], "TEMPERATURE_MIN", current, LOCAL_NOW, min) == 6.1
+    )
+
+
+def test_today_extreme_keeps_aggregate_when_current_is_within() -> None:
+    current = _temperature(10.0, LOCAL_NOW - timedelta(minutes=5))
+
+    assert (
+        today_extreme([TODAY_BUCKET], "TEMPERATURE_MAX", current, LOCAL_NOW, max)
+        == 13.9
+    )
+    assert (
+        today_extreme([TODAY_BUCKET], "TEMPERATURE_MIN", current, LOCAL_NOW, min) == 6.1
+    )
+
+
+def test_today_extreme_ignores_yesterdays_measure() -> None:
+    # 23:50 local on the 17th, while it is 00:10 on the 18th.
+    now = datetime(2026, 10, 18, 0, 10, tzinfo=PARIS)
+    yesterday = _temperature(25.0, datetime(2026, 10, 17, 23, 50, tzinfo=PARIS))
+
+    assert today_extreme([TODAY_BUCKET], "TEMPERATURE_MAX", yesterday, now, max) == 13.9
+
+
+def test_today_extreme_without_todays_bucket() -> None:
+    current = _temperature(9.2, LOCAL_NOW - timedelta(minutes=5))
+
+    assert today_extreme([], "TEMPERATURE_MAX", current, LOCAL_NOW, max) == 9.2
+    assert today_extreme([], "TEMPERATURE_MAX", None, LOCAL_NOW, max) is None

@@ -1,6 +1,7 @@
 """Tests for the Sencrop sensor entities."""
 
-from datetime import timedelta
+from dataclasses import replace
+from datetime import datetime, timedelta
 from unittest.mock import AsyncMock
 
 import pytest
@@ -39,8 +40,13 @@ def state(hass: HomeAssistant, device_id: int, key: str) -> State:
 
 @pytest.fixture
 async def loaded(
-    hass: HomeAssistant, mock_client: AsyncMock, mock_config_entry: MockConfigEntry
+    hass: HomeAssistant,
+    frozen_now: datetime,
+    mock_client: AsyncMock,
+    mock_config_entry: MockConfigEntry,
 ) -> MockConfigEntry:
+    # Depend on frozen_now explicitly: function-level usefixtures marks run
+    # before the module pytestmark, which would set up at the real time.
     await setup_entry(hass, mock_config_entry)
     return mock_config_entry
 
@@ -159,8 +165,6 @@ async def test_unknown_link_quality(
     hass: HomeAssistant, mock_client: AsyncMock, mock_config_entry: MockConfigEntry
 ) -> None:
     devices = mock_client.async_get_devices.return_value
-    from dataclasses import replace
-
     devices[RAINCROP] = replace(devices[RAINCROP], link_quality="weird")
 
     await setup_entry(hass, mock_config_entry)
@@ -225,3 +229,32 @@ async def test_firmware_disabled_by_default(hass: HomeAssistant) -> None:
 
     assert entry is not None
     assert entry.disabled_by is er.RegistryEntryDisabler.INTEGRATION
+
+
+@pytest.mark.parametrize(
+    ("current", "expected_min", "expected_max"),
+    [(12.5, "11.15", "12.5"), (10.0, "10.0", "11.676")],
+)
+async def test_temperature_extremes_include_current_measure(
+    hass: HomeAssistant,
+    mock_client: AsyncMock,
+    mock_config_entry: MockConfigEntry,
+    current: float,
+    expected_min: str,
+    expected_max: str,
+) -> None:
+    # The daily aggregate (min 11.15, max 11.676) lags behind raw measures.
+    original = mock_client.async_get_latest.side_effect
+
+    def latest(device_id, measures, now):
+        values = original(device_id, measures, now)
+        if device_id == RAINCROP:
+            values["TEMPERATURE"] = replace(values["TEMPERATURE"], value=current)
+        return values
+
+    mock_client.async_get_latest.side_effect = latest
+
+    await setup_entry(hass, mock_config_entry)
+
+    assert state(hass, RAINCROP, "temperature_min_today").state == expected_min
+    assert state(hass, RAINCROP, "temperature_max_today").state == expected_max

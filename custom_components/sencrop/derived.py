@@ -1,7 +1,7 @@
 """Values derived from Sencrop measures (no Home Assistant imports)."""
 
 import math
-from collections.abc import Mapping, Sequence
+from collections.abc import Callable, Iterable, Mapping, Sequence
 from datetime import UTC, date, datetime, timedelta
 
 from .api import AggregateBucket, Measurement
@@ -28,6 +28,27 @@ def daily_bucket(
 ) -> AggregateBucket | None:
     """Return the daily bucket of a local date."""
     return next((b for b in buckets if _bucket_day(b) == day), None)
+
+
+def today_extreme(
+    buckets: Sequence[AggregateBucket],
+    measure: str,
+    current: Measurement | None,
+    now: datetime,
+    pick: Callable[[Iterable[float]], float],
+) -> float | None:
+    """Today's min or max from the daily aggregate and the current measure.
+
+    Sencrop refreshes the daily aggregate less often than raw measures, so
+    the latest reading can already be beyond it. `now` is local time.
+    """
+    values = []
+    bucket = daily_bucket(buckets, now.date())
+    if bucket is not None and measure in bucket.values:
+        values.append(bucket.values[measure])
+    if current is not None and current.date.astimezone(now.tzinfo).date() == now.date():
+        values.append(current.value)
+    return pick(values) if values else None
 
 
 def _sum(values: list[float]) -> float | None:
