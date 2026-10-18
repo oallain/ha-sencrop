@@ -1,7 +1,7 @@
 """Sensor platform for the Sencrop integration."""
 
 import logging
-from collections.abc import Callable
+from collections.abc import Callable, Iterable
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 
@@ -35,6 +35,7 @@ from .derived import (
     last_measurement_date,
     sum_days,
     sum_since,
+    today_extreme,
 )
 from .entity import SencropEntity
 
@@ -65,10 +66,12 @@ def _latest(measure: str) -> Callable[[DeviceData, datetime], float | None]:
     return value
 
 
-def _today(measure: str) -> Callable[[DeviceData, datetime], float | None]:
+def _today_temperature(
+    measure: str, pick: Callable[[Iterable[float]], float]
+) -> Callable[[DeviceData, datetime], float | None]:
     def value(data: DeviceData, now: datetime) -> float | None:
-        bucket = daily_bucket(data.daily, now.date())
-        return bucket.values.get(measure) if bucket else None
+        current = data.latest.get("TEMPERATURE")
+        return today_extreme(data.daily, measure, current, now, pick)
 
     return value
 
@@ -188,10 +191,14 @@ SENSORS: tuple[SencropSensorEntityDescription, ...] = (
     _precipitation("rain_24h", _rain_24h),
     _precipitation("rain_7d", _rain_7d),
     _temperature(
-        "temperature_min_today", _today("TEMPERATURE_MIN"), _has("TEMPERATURE")
+        "temperature_min_today",
+        _today_temperature("TEMPERATURE_MIN", min),
+        _has("TEMPERATURE"),
     ),
     _temperature(
-        "temperature_max_today", _today("TEMPERATURE_MAX"), _has("TEMPERATURE")
+        "temperature_max_today",
+        _today_temperature("TEMPERATURE_MAX", max),
+        _has("TEMPERATURE"),
     ),
     _temperature("dew_point", _dew_point, _has("TEMPERATURE", "RELATIVE_HUMIDITY")),
     SencropSensorEntityDescription(
