@@ -13,7 +13,7 @@ def test_manifest_is_valid() -> None:
     assert manifest["domain"] == "sencrop"
     assert manifest["config_flow"] is True
     assert manifest["iot_class"] == "cloud_polling"
-    assert manifest["version"] == "0.1.1"
+    assert manifest["version"] == "0.1.2"
     assert manifest["codeowners"] == ["@oallain"]
     assert manifest["requirements"] == []
 
