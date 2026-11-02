@@ -17,9 +17,16 @@ Raincrop rain gauge (rain, temperature, humidity) and Windcrop anemometer
 
 ### With HACS (recommended)
 
+Sencrop is available in the default HACS repositories:
+
+1. In HACS, search for **Sencrop**.
+2. Install it and restart Home Assistant.
+
 [![Open your Home Assistant instance and open this repository inside HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=oallain&repository=ha-sencrop&category=integration)
 
-Click the button above, or add the repository by hand:
+You can also click the button above to open the repository directly in HACS.
+
+If Sencrop does not show up in the search, add it as a custom repository:
 
 1. In HACS, open the ⋮ menu and choose **Custom repositories**.
 2. Add `https://github.com/oallain/ha-sencrop` with the **Integration** type.
